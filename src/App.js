@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.<br />
-          REACT_APP_ABC: {process.env.REACT_APP_ABC}
+          REACT_APP_ABC: {process.env.REACT_APP_ABC} / 
         </p>
         <a
           className="App-link"
