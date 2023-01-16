@@ -9,7 +9,7 @@ function App() {
   const onSubmit = () => {
     console.log(process.env.REACT_APP_API_ENDPOINT)
     const url = process.env.REACT_APP_API_ENDPOINT + "/?name=API"
-    fetch(url).then(response => {alert(response); console.log(response)});
+    fetch(url).then(response => {alert(response); console.log(response.body)});
   }
 
   return (
